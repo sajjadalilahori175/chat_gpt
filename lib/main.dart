@@ -50,6 +50,7 @@ class MyApp extends StatelessWidget {
           title: 'Chat GPT',
           debugShowCheckedModeBanner: false,
           onGenerateRoute: AppNavigation.buildPage,
+          
           theme: ThemeData(
               scaffoldBackgroundColor: scaffoldBackgroundColor,
               appBarTheme: const AppBarTheme()),
