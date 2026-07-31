@@ -52,7 +52,7 @@ class MyApp extends StatelessWidget {
           onGenerateRoute: AppNavigation.buildPage,
           theme: ThemeData(
               scaffoldBackgroundColor: scaffoldBackgroundColor,
-              appBarTheme: AppBarTheme(color: cardColor)),
+              appBarTheme: const AppBarTheme()),
           home: auth.currentUser != null
               ? const HomePage()
               : const GoogleSignInPage()),
